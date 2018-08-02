@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './sheepcounter.css';
-
-
 import Oveja from './Oveja';
 
 class SheepCounter extends Component {

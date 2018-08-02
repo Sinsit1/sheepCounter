@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './oveja.jpg';
 import './oveja.css';
 class Oveja extends React.Component {
     
