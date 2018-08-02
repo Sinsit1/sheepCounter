@@ -1,6 +1,6 @@
 .sheep__body, .sheep__hair, .sheep__bang {
   animation-name: switch_sheep;
-  animation-duration: 15s;
+  animation-duration: 8s;
   animation-timing-function: steps(1);
   animation-iteration-count: infinite;
   background-color: #383A3F; }
@@ -12,7 +12,7 @@
 
 body {
   min-height: 320px;
-  background-color: #c6c8cf; }
+  background-color: #459418; }
 
 ul,
 li {
@@ -35,7 +35,7 @@ ul {
   width: 200px;
   height: 200px;
   cursor: pointer;
-  margin: 27vh auto 0;
+  margin: 10vh auto 0;
   position: relative; }
   .sheep:hover .sheep__body, .sheep:hover .sheep__hair, .sheep:hover .sheep__bang {
     animation-play-state: paused; }
@@ -146,3 +146,4 @@ ul {
     background-color: #d05165; }
   83.3333333% {
     background-color: #cc9634; } }
+

@@ -1,3 +1,9 @@
+body {
+  background-image: url("http://www.clipartsfree.net/svg/42666-landscape-background-vector.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 a {
   
     position: relative;
@@ -36,7 +42,7 @@ a:active {
 
 .grid{
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 .contador {

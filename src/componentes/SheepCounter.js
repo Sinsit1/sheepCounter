@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './sheepcounter.css';
-import './oveja.jpg';
+
 
 import Oveja from './Oveja';
 
@@ -29,7 +29,7 @@ class SheepCounter extends Component {
                 <a 
                 type="button" className='oveja'
                 onClick={this.onClickListener}
-                > ¡Toma oveja! 
+                > ¡Ovejas al campo! 
                 </a>
                 <p className="contador">{this.state.counter}</p>
                 <div className="grid">
